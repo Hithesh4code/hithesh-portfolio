@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#222;
+    color:white;
+    padding:20px;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.home{
+    height:100vh;
+    background:#0077ff;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid white;
+    margin-bottom:20px;
+}
+
+section{
+    padding:60px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.edu-card,
+.project-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin-top:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.skills-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.skill-card{
+    background:#0077ff;
+    color:white;
+    padding:15px 25px;
+    border-radius:10px;
+}
+
+.project-card:hover{
+    transform:scale(1.03);
+    transition:0.3s;
+}
+
+#contact{
+    background:#222;
+    color:white;
+}
